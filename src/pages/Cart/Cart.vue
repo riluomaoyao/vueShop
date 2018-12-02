@@ -3,23 +3,36 @@
     <div class="cartHeader">购物车</div>
     <div class="cartContent">
       <ul class="advantage">
-        <li>30天无忧退货</li>
-        <li>30天无忧退货</li>
-        <li>30天无忧退货</li>
+        <li>
+          <i class="iconfont icon-kongxinyuan"></i>
+          <span class="txt">30天无忧退货</span>
+        </li>
+        <li>
+          <i class="iconfont icon-kongxinyuan"></i>
+          <span class="txt">30天无忧退货</span>
+        </li>
+        <li>
+          <i class="iconfont icon-kongxinyuan"></i>
+          <span class="txt">30天无忧退货</span>
+        </li>
       </ul>
       <div class="gouwuche">
-        <i class="iconfont icon-gouwuche"></i>
+        <i class="iconfont icon-unie62d"></i>
       </div>
       <div class="txt">
         <span>去添加点什么</span>
-        <div>登录</div>
+        <div @click="goLogin('/personal')">登录</div>
       </div>
     </div>
   </section>
 </template>
 <script>
   export default {
-
+    methods: {
+      goLogin(path) {
+        this.$router.replace(path)
+      }
+    }
   }
 </script>
 
@@ -28,6 +41,7 @@
   #cartContainer
     width 100%
     height 100%
+    position relative
     .cartHeader
       width 100%
       height  (87/$rem)
@@ -39,18 +53,29 @@
       height 100%
       background #f4f4f4
       box-sizing border-box
-      position relative
+      position fixed
       .advantage
         width 100%
         display flex
         align-items center
         padding-top (13/$rem)
         li
-          font-size 0.32rem
-          color #666
           flex 1
-          list-style circle
           text-align center
+          display flex
+          align-items center
+          justify-content center
+          .txt
+            margin-top (-16/$rem)
+            font-size 0.32rem
+            color #666
+          .iconfont
+            margin-right (-27/$rem)
+            margin-top (20px/$rem)
+            font-size 0.52rem
+            color #666
+
+
       .gouwuche
         width (248/$rem)
         height (248/$rem)

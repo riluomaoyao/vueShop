@@ -1,13 +1,13 @@
 <template>
   <section id="personalContainer">
     <div class="personalHeader">
-      <div class="personHome">
+      <div class="personHome" @click="goHome('/home')">
         <i class="iconfont icon-HOME"></i>
       </div>
       <a href="javascript:;" class="personalImg"></a>
       <div class="personGouwu">
-        <i class="iconfont icon-sousuo"></i>
-        <i class="iconfont icon-gouwuche"></i>
+        <i class="iconfont icon-sousuo" @click="goHome('/home')"></i>
+        <i class="iconfont icon-gouwuche" @click="goCart('/cart')"></i>
       </div>
     </div>
     <div class="personalContent">
@@ -30,7 +30,14 @@
 </template>
 <script>
   export default {
-
+    methods: {
+      goHome(path) {
+        this.$router.replace(path)
+      },
+      goCart(path) {
+        this.$router.replace(path)
+      }
+    }
   }
 </script>
 <style lang="stylus" rel="stylesheet/stylus" scoped>

@@ -121,7 +121,9 @@
     "type": 1,
     "wapBannerUrl": "http://yanxuan.nosdn.127.net/135cfb8a563c983af4710a24f3b34f85.jpg",
     "wapExpandPicTargetUrl": "https://you.163.com/act/pub/2kcqiKwkco.html"
-  }, {
+  },
+
+    {
     "bannerUrl": "http://yanxuan.nosdn.127.net/338801bc05ba0ee0cf201c1a87376677.png",
     "extra": {
       "adminResource": {
@@ -273,7 +275,8 @@
     "type": 1,
     "wapBannerUrl": "http://yanxuan.nosdn.127.net/e50f6947839c0e3a6c10057e5419f324.jpg",
     "wapExpandPicTargetUrl": "https://you.163.com/topic/v1/pub/0NGKfp7JB5.html"
-  }, {
+  },
+    {
     "bannerUrl": "http://yanxuan.nosdn.127.net/752cec754ea423f936e305d92fc4d0e6.png",
     "extra": {
       "adminResource": {
@@ -441,7 +444,8 @@
     "type": 1,
     "wapBannerUrl": "http://yanxuan.nosdn.127.net/f92b50ac56b2cd7664cd2be29a64198b.jpg",
     "wapExpandPicTargetUrl": "https://you.163.com/topic/v1/pub/VVxKhviPfT.html"
-  }, {
+  },
+    {
     "bannerUrl": "http://yanxuan.nosdn.127.net/761877bc4e2cf50d7c424a8a7e6378bf.jpg",
     "extra": null,
     "frontDesc": "回家，放松身心",

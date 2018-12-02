@@ -236,7 +236,7 @@
       //轮播图
       banner() {
         this.$nextTick(()=>{
-          new Swiper('.swiper-container', {
+          var mySwiper =  new Swiper('.swiper-container', {
             loop: true,
             pagination: {
               el: '.swiper-pagination'
