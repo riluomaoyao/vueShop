@@ -18,4 +18,7 @@ export default {
   [RECEIVE_HOME](state,{home}){
     state.home = home
   },
+  [RECEIVE_NAV](state,{result}){
+    state.nav = result.nav
+  },
 }

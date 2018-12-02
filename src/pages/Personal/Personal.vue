@@ -26,22 +26,6 @@
         <i class="iconfont icon-z043"></i>
       </div>
     </div>
-    <div class="personFooter">
-      <ul class="loginWays">
-        <li>
-          <i class="iconfont icon-weixin"></i>
-          <span>微信</span>
-        </li>
-        <li>
-          <i class="iconfont icon-qq"></i>
-          <span>QQ</span>
-        </li>
-        <li>
-          <i class="iconfont icon-weibo"></i>
-          <span>微博</span>
-        </li>
-      </ul>
-    </div>
   </section>
 </template>
 <script>
@@ -123,6 +107,8 @@
         height (93.9997/$rem)
         font-size (27.9998/$rem)
         color #333
+        span
+          margin-left (90/$rem)
         .iconfont
           font-size (27.9998/$rem)
 

@@ -12,7 +12,7 @@ import {
   RECEIVE_BANNER,
   RECEIVE_DETAIL,
   RECEIVE_HOME,
-  RESET_NAV
+  RECEIVE_NAV
 } from "./mutation-types";
 
 
@@ -61,14 +61,15 @@ export default {
   },
 
 //返回分类页nav数据
-//   async getNav({commit},cb) {
-//     const result = await reqNav()
-//     if(result.code===0) {
-//       commit(RESET_NAV, {ratings})
-//       typeof cb==='function' && cb()
-//
-//     }
-//   },
+  async getNav({commit},cb) {
+    const result = await reqNav()
+    console.log(result);
+    if(result.code===0) {
+      commit(RECEIVE_NAV, {result})
+      typeof cb==='function' && cb()
+
+    }
+  },
 
 }
 

@@ -67,7 +67,7 @@
               </a>
             </div>
           </div>
-
+          <!--新品首发-->
           <div class="newItem">
             <header class="newItemsWrap">
               <span>新品首发</span>
@@ -135,21 +135,79 @@
                </ul>
             </div>
           </div>
+          <!--福利社-->
+          <div class="m-sale">
+            <img src="">
+          </div>
+          <!--专题精选-->
+          <div class="m-indexFloor">
+            <span>专题精选</span>
+            <span><i class="iconfont iconfont-gou"></i></span>
+          </div>
+          <!--专题精选图片-->
+          <div class="imgWrap">
+            <div class="imgItem">
+              <img src="" alt="">
+              <div class="line1">
+                <span class="description">给毛孔来一次深度清洁</span>
+                <span class="money">107.1元起</span>
+              </div>
+              <div class="line2">
+                硅胶洁面仪，洗出会发光的素颜肌
+              </div>
+            </div>
 
-
-
-
-
-
-
-
-
-
-
+          </div>
+          <!--居家好物的一系列物品-->
+          <div class="GoodsList">
+            <div class="homeGoods">
+              <h3 class="title">居家好物</h3>
+              <div class="showGoods">
+                <div class="wraper">
+                  <img src="" alt="">
+                  <div class="desc ellipsis">宽细夹排，升级爽滑凉感</div>
+                  <div class="name ellipsis">天然宽篾头层青碳化竹凉席</div>
+                  <span class="price">279￥</span>
+                </div>
+              </div>
+            </div>
+            <div class="homeGoods">
+              <h3 class="title">居家好物</h3>
+              <div class="showGoods">
+                <div class="wraper">
+                  <img src="" alt="">
+                  <div class="desc ellipsis">宽细夹排，升级爽滑凉感</div>
+                  <div class="name ellipsis">天然宽篾头层青碳化竹凉席</div>
+                  <span class="price">279￥</span>
+                </div>
+              </div>
+            </div>
+            <div class="homeGoods">
+              <h3 class="title">居家好物</h3>
+              <div class="showGoods">
+                <div class="wraper">
+                  <img src="" alt="">
+                  <div class="desc ellipsis">宽细夹排，升级爽滑凉感</div>
+                  <div class="name ellipsis">天然宽篾头层青碳化竹凉席</div>
+                  <span class="price">279￥</span>
+                </div>
+              </div>
+            </div>
+            <div class="homeGoods">
+              <h3 class="title">居家好物</h3>
+              <div class="showGoods">
+                <div class="wraper">
+                  <img src="" alt="">
+                  <div class="desc ellipsis">宽细夹排，升级爽滑凉感</div>
+                  <div class="name ellipsis">天然宽篾头层青碳化竹凉席</div>
+                  <span class="price">279￥</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="fo"></div>
       </div>
-
     </div>
   </div>
 </template>
@@ -381,11 +439,6 @@
                     width (150.07/$rem)
                     height (150.07/$rem)
                     float left
-
-
-
-
-
           .newItem
             width 100%
             height (260/$rem)
@@ -459,6 +512,116 @@
 
 
 
+          .m-sale
+            width 100%
+            height (308.15/$rem)
+            background red
+            margin-top (547.5/$rem)
+            img
+              width 100%
+              height 100%
+          .m-indexFloor
+            width 100%
+            height (110/$rem)
+            background papayawhip
+            text-align center
+            margin-top (4/$rem)
+            span
+              font-size (32.0003/$rem)
+              .iconfont
+                font-size  (30/$rem)
+                color black
+
+          .imgWrap
+            width 100%
+            height (665.19/$rem)
+            background gainsboro
+            padding-left  (22.5/$rem)
+            box-sizing border-box
+            display flex
+            align-items center
+            justify-content space-around
+            .imgItem
+              width (575/$rem)
+              height (393.638/$rem)
+              margin-bottom (15.9998/$rem)
+              margin-right  (20.8444/$rem)
+              background-color pink
+              border-bottom-left-radius (8/$rem)
+              border-bottom-right-radius (8/$rem)
+              img
+                width 100%
+                height (319.438/$rem)
+                margin-bottom (7.5/$rem)
+                background-color yellow
+                display block
+              .line1
+                width (575/$rem)
+                height (27.2/$rem)
+                margin-bottom (7.5/$rem)
+                background gold
+                overflow hidden
+                .description
+                  font-size (27.9998/$rem)
+                  float left
+                .money
+                  font-size (27.9998/$rem)
+                  float right
+                  color red
+              .line2
+                width (575/$rem)
+                height (24/$rem)
+                line-height (24/$rem)
+                font-size (24/$rem)
+                color #7F7F7F
+
+
+
+          .GoodsList
+            width 100%
+            .homeGoods
+              width 100%
+              top-border-1px(#e4e4e4)
+              text-align center
+            .title
+              height  (120/$rem)
+              line-height (120/$rem)
+              width 100%
+              font-size (27.9998/$rem)
+              color #333
+            .showGoods
+              width 100%
+              .wraper
+                width (345.175/$rem)
+                height (546.188/$rem)
+                background red
+                margin 0 (22.5/$rem) (15/$rem) (15/$rem)
+                img
+                  width (345.175/$rem)
+                  height (345.175/$rem)
+                  border-top-left-radius (3.99975/$rem)
+                  border-top-right-radius (3.99975/$rem)
+                  display block
+                .desc
+                  font-size (24/$rem)
+                  padding (20.0002/$rem) 1.13333rem (20.0002/$rem) (9.99975/$rem)
+                  box-sizing border-box
+                  color #9F8A60
+                  background #F1ECE2
+                .name
+                  margin-top (24/$rem)
+                  padding 0 (9.99975/$rem)
+                  line-height (48/$rem)
+                  text-align center
+                  font-size (27.9998/$rem)
+                  color #333
+                .price
+                  padding 0 (9.99975/$rem) 0 (9.99975/$rem)
+                  box-sizing border-box
+                  font-size 0.42667rem
+                  color #b4282d
+                  float left
+                  margin-left (9/$rem)
 
 
 
@@ -468,12 +631,7 @@
 
 
 
-
-
-
-
-
-        .fo
+  .fo
           width 100%
           height (2000/$rem)
 
