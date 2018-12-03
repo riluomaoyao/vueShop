@@ -11,9 +11,8 @@
       </div>
     </div>
     <div class="personalContent">
-      <div class="logoWrap">
-      </div>
-      <div class="phoneLogin">
+      <div class="logoWrap"></div>
+      <div class="phoneLogin" @click="goLogin('/login')">
         <i class="iconfont icon-shouji"></i>
         <span>手机号码登录</span>
       </div>
@@ -35,6 +34,9 @@
         this.$router.replace(path)
       },
       goCart(path) {
+        this.$router.replace(path)
+      },
+      goLogin(path) {
         this.$router.replace(path)
       }
     }
@@ -77,6 +79,7 @@
       height 100%
       background #F4F4F4
       text-align center
+      position fixed
       .logoWrap
         height (417.98/$rem)
         background-image url("http://yanxuan.nosdn.127.net/bd139d2c42205f749cd4ab78fa3d6c60.png")
